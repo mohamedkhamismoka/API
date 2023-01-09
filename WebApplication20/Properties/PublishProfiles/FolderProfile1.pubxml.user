@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\EL-Masria\Desktop\Deploy</_PublishTargetUrl>
+    <History>True|2022-10-23T04:06:12.6940300Z;True|2022-10-23T04:41:37.0295963+02:00;True|2022-10-23T03:55:13.2917983+02:00;False|2022-10-23T03:54:03.6944217+02:00;False|2022-10-23T03:53:08.6734977+02:00;</History>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAkqqaTbL28EOSrKusFYjxMQAAAAACAAAAAAAQZgAAAAEAACAAAACUdBhdUc4lnubfBtq/jvyQ3JBUi7j/aB/EEfUuWo/oDQAAAAAOgAAAAAIAACAAAAAtePdezgcFIUimFZANGwpE70J1on33jSRGII2mWe9z+CAAAABxn4SnMkwMgFyZdId0DVrhpXjO7UyWBxb4T58er7ulNEAAAABJ+XMTN3Vtgzcc0ThbUcYupfeCeJpP9rErYutbGKEVcKumvZFmcb1t4QY01p+S0LDSS84S6QJgumpQIKL30wv2</EncryptedPassword>
+  </PropertyGroup>
+</Project>

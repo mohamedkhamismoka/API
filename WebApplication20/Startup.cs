@@ -62,6 +62,7 @@ namespace WebApplication20
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "WebApplication20", Version = "v1" });
             });
+         
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -78,9 +79,9 @@ namespace WebApplication20
 
             app.UseRouting();
             app.UseCors();
-          
 
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

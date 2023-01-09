@@ -41,7 +41,8 @@ namespace WebApplication20.Controllers
         [HttpPost]
 
 
-        public IActionResult Create([FromHeader]StudentVm std)
+     
+        public IActionResult Create([FromHeader] StudentVm std)
         {
             try
             {
@@ -52,7 +53,7 @@ namespace WebApplication20.Controllers
                     std.imgName = imgname;
                     var data = mapper.Map<Student>(std);
                     unw.students.create(data);
-                    return Ok("Created successfully");
+                    return Ok("student Added Successfully");
 
                 }
                 return BadRequest("please,Review Data");

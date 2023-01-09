@@ -14,7 +14,7 @@ namespace WebApplication20.BL.services
           
             string path = Directory.GetCurrentDirectory()+"/"+foldername;
             string imgname=Guid.NewGuid()+Path.GetFileName(img.FileName);
-            string finalpath=Path.Combine(path,imgname);
+            string finalpath = path + "/" + imgname;
             using (var stream = new FileStream(finalpath,FileMode.Create))
             {
                img.CopyTo(stream);
