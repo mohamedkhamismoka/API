@@ -68,7 +68,7 @@ namespace WebApplication20.Controllers
 
         [HttpPut]
       
-        public IActionResult update(StudentVm std)
+        public IActionResult update([FromHeader] StudentVm std)
         {
             try
             {
