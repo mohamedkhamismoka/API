@@ -20,6 +20,7 @@ namespace WebApplication20.BL.VM
         public string phone { get; set; }
 
         public string imgName { get; set; }
+        [Required(ErrorMessage = "Image is Required")]
         public IFormFile img { get; set; }
     }
 }

@@ -5,9 +5,9 @@ namespace WebApplication20.BL.VM
 {
     public class studentCourseVM
     {
-        [Required(ErrorMessage = "student is Required")]
+        [Range(1, 100, ErrorMessage = "Enter valid studentID ")]
         public int StudentId { get; set; }
-        [Required(ErrorMessage = "course is Required")]
+        [Range(1, 100, ErrorMessage = " Enter valid courseID")]
         public int courseId { get; set; }
 
         [Required(ErrorMessage = "degree is Required")]
